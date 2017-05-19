@@ -1,0 +1,681 @@
+@charset "utf-8";
+/* 公用 */
+@media screen and (min-width: 240px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 320px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 13.2px;
+  }
+}
+@media screen and (min-width: 340px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 360px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 375px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 16.3px;
+  }
+}
+@media screen and (min-width: 400px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 17.2px;
+  }
+}
+@media screen and (min-width: 414px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 17.8px;
+  }
+}
+@media screen and (min-width: 420px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 435px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 18.5px;
+  }
+}
+@media screen and (min-width: 451px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 19.5px;
+  }
+}
+@media screen and (min-width: 480px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 20.8px;
+  }
+}
+@media screen and (min-width: 510px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 540px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 23.8px;
+  }
+}
+@media screen and (min-width: 570px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 600px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 25.5px;
+  }
+}
+@media screen and (min-width: 620px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 26.5px;
+  }
+}
+@media screen and (min-width: 640px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 27.5px;
+  }
+}
+@media screen and (min-width: 680px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 720px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 760px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 34px;
+  }
+}
+@media screen and (min-width: 800px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 880px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 38px;
+  }
+}
+@media screen and (min-width: 960px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 980px) {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea {
+    font-size: 43.2px;
+  }
+}
+/* `XHTML, HTML4, HTML5 Reset
+----------------------------------------------------------------------------------------------------*/
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  /*
+    Override the default (display: inline) for
+    browsers that do not recognize HTML5 tags.
+
+    IE8 (and lower) requires a shiv:
+    http://ejohn.org/blog/html5-shiv
+*/
+  display: block;
+}
+b,
+strong {
+  /*
+    Makes browsers agree.
+    IE + Opera = font-weight: bold.
+    Gecko + WebKit = font-weight: bolder.
+*/
+  font-weight: bold;
+}
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+  /*
+    For IE.
+    http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+*/
+  -ms-interpolation-mode: bicubic;
+}
+li {
+  /*
+    For IE6 + IE7.
+*/
+  display: list-item;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+q {
+  quotes: none;
+}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+sub,
+sup,
+small {
+  font-size: 75%;
+}
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+svg {
+  /*
+    For IE9.
+*/
+  overflow: hidden;
+}
+/*
+基本配置
+*/
+body,
+li,
+ul,
+ol,
+dl,
+dt,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  background-attachment: fixed;
+  font-family: tahoma,arial,宋体;
+}
+textarea,
+input,
+select {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-family: tahoma,arial,宋体;
+  outline: none;
+  resize: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #444;
+}
+a:hover {
+  text-decoration: none;
+  color: #5E92C9;
+}
+a img,
+img {
+  border: 0 none;
+}
+em,
+i {
+  font-style: normal;
+}
+.hide {
+  display: none;
+}
+.sizing {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ellipsis {
+  /*溢出省略*/
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.clear:after {
+  content: '';
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+/* 去除iPhone中默认的input样式 */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input {
+  -webkit-appearance: none;
+  resize: none;
+}
+/* 取消链接高亮  */
+body,
+div,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+p,
+dl,
+dt,
+dd,
+a,
+img,
+button,
+form,
+table,
+th,
+tr,
+td,
+tbody,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* 设置HTML5元素为块 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+/* 图片自适应 */
+img {
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  /*为了照顾ie图片缩放失真*/
+}
+/* 初始化 */
+body,
+div,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+p,
+dl,
+dt,
+dd,
+a,
+img,
+button,
+form,
+table,
+th,
+tr,
+td,
+tbody,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body {
+  font: normal 14px/1.5 Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+}
+em,
+i {
+  font-style: normal;
+}
+strong {
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: #969696;
+}
+a:active {
+  color: #f60;
+}
+/* 按下状态 */
+ul,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+.tips {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  z-index: 101;
+  background: #666666;
+  color: #fff;
+  border-radius: 0.2rem;
+  max-width: 90%;
+  display: none;
+  font-size: 0.96rem;
+}
+.tips_inner {
+  padding: 1.2rem 0.9rem;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+.container {
+  height: 100%;
+  overflow-y: auto;
+}
