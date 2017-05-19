@@ -71,7 +71,7 @@ export default {
       },
       load(){
         var _this = this;
-        let url = 'http://wangyi.butterfly.mopaasapp.com/news/api'
+        let url = 'https://wangyi.butterfly.mopaasapp.com/news/api'
         const arr = ['war','sport','tech','edu','ent','money','gupiao','travel','lady']
         url += '?type='+arr[this.type]+'&page='+this.page+'&limit='+this.count
         this.$ajax.get(url).then((res)=>{
